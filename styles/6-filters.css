@@ -1,0 +1,25 @@
+.filter {
+    border: 1px solid #DDDDDD;
+    border-radius: 4px;
+    padding: 10px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.filter h4 {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.popover {
+    display: none;
+    background-color: #FAFAFA;
+    width: 100%;
+    border: 1px solid #DDDDDD;
+    border-radius: 4px;
+    padding: 10px;
+}
+
+.filter:hover .popover {
+    display: block;
+}
